@@ -49,10 +49,41 @@ def setup_custom_logging():
     
     return logger_sys, logger_err, logger_att
 
+class RTSPVideoReader:
+    def __init__(self, src=0):
+        self.cap = cv2.VideoCapture(src)
+        self.ret, self.frame = self.cap.read()
+        self.running = True
+        
+        # Mulai background thread khusus untuk menyedot frame CCTV
+        self.thread = threading.Thread(target=self.update, daemon=True)
+        self.thread.start()
+
+    def update(self):
+        # Terus-menerus timpa frame lama dengan frame paling baru (Bypass Buffer)
+        while self.running:
+            ret, frame = self.cap.read()
+            if ret:
+                self.ret = ret
+                self.frame = frame
+            else:
+                time.sleep(0.01)
+
+    def read(self):
+        # Kembalikan frame paling fresh saat AI memintanya
+        return self.ret, self.frame
+
+    def release(self):
+        self.running = False
+        self.cap.release()
+        
+    def isOpened(self):
+        return self.cap.isOpened()
+
 logger_sys, logger_err, logger_att = setup_custom_logging()
 logger_sys.info("Sistem Absensi Face Recognition Memulai Proses Inisialisasi...")
 
-# --- KONFIGURASI API & UI ---
+# --- KONFIGURASffI API & UI ---
 INTERVAL_SYNC_DETIK = 86400 
 PATH_FOTO = "known_faces"
 COOLDOWN_DETIK = 30
@@ -77,9 +108,14 @@ if os.path.exists("config.json"):
         data = json.load(file)
         
         source_type = data.get("video_source", "")
-        if "Webcam Laptop" in source_type: VIDEO_SOURCE = 0
-        elif "Webcam External" in source_type: VIDEO_SOURCE = 1
-        else: VIDEO_SOURCE = data.get("rtsp_url", "")
+        if "Webcam Laptop" in source_type: 
+            VIDEO_SOURCE = 0
+        elif "Webcam External" in source_type: 
+            VIDEO_SOURCE = 1
+        else: 
+            VIDEO_SOURCE = data.get("rtsp_url", "")
+            # --- TAMBAHKAN INI AGAR CCTV RTSP STABIL ---
+            os.environ["OPENCV_FFMPEG_CAPTURE_OPTIONS"] = "rtsp_transport;tcp|stimeout;5000000"
         
         COMPANY_CODE = data.get("company_code", COMPANY_CODE) # <-- Load company code
         LATITUDE = data.get("latitude", LATITUDE)
@@ -208,7 +244,8 @@ threading.Thread(target=background_sync_worker, daemon=True).start()
 
 # --- 4. INIT CAMERA ---
 logger_sys.info(f"Mencoba membuka sumber kamera: {VIDEO_SOURCE}")
-video_capture = cv2.VideoCapture(VIDEO_SOURCE)
+# Menggunakan Frame Reader anti-lag yang baru kita buat
+video_capture = RTSPVideoReader(VIDEO_SOURCE)
 
 if not video_capture.isOpened():
     logger_err.error("❌ Kamera gagal diinisialisasi! Cek URL RTSP atau koneksi Webcam.")
