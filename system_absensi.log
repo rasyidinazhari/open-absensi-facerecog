@@ -472,3 +472,166 @@
 2026-04-21 15:54:41,723 [INFO] Wajah dikenali: Wisnu. Men-trigger API.
 2026-04-21 15:54:41,724 [INFO] Mempersiapkan payload API (Multipart) untuk NIP: 26040002 - Wisnu
 2026-04-21 15:54:41,726 [INFO] ✅ Simulasi API Hit Sukses (Multipart/Form-Data Terbentuk).
+2026-04-24 13:12:29,204 [INFO] Sistem Absensi Face Recognition Memulai Proses Inisialisasi...
+2026-04-24 13:12:29,205 [INFO] Memuat database wajah dari direktori lokal...
+2026-04-24 13:12:29,205 [INFO] 🔄 Memulai reload database wajah...
+2026-04-24 13:12:29,205 [INFO] ✅ Reload selesai! Total 0 wajah aktif di memori.
+2026-04-24 13:12:29,205 [INFO] 📡 [SYNC] Mengecek update data karyawan ke backend API...
+2026-04-24 13:12:30,099 [INFO] ⬇️ Mengunduh foto baru: Picture_15110001_ANDIKA SAPUTRA.png
+2026-04-24 13:12:30,444 [INFO] Kamera diinisialisasi. Memulai main loop.
+2026-04-24 13:12:31,075 [INFO] ⬇️ Mengunduh foto baru: Picture_20070001_RISKA FEBI PUSPITASARI.jpg
+2026-04-24 13:12:31,427 [INFO] ⬇️ Mengunduh foto baru: Picture_22040001_HENDRA PUTRANTO.jpg
+2026-04-24 13:12:31,732 [INFO] ⬇️ Mengunduh foto baru: Picture_22040002_ALFONSO ARYANDO SABILILLAH.jpg
+2026-04-24 13:12:31,992 [INFO] ⬇️ Mengunduh foto baru: Picture_22120001_FAJAR NUGROHO.jpg
+2026-04-24 13:12:32,297 [INFO] ⬇️ Mengunduh foto baru: Picture_23040001_ANANG SULISTYO ARIWIBOWO.jpg
+2026-04-24 13:12:32,692 [INFO] ⬇️ Mengunduh foto baru: Picture_23090005_RANTO FADILAH.jpeg
+2026-04-24 13:12:33,164 [INFO] ⬇️ Mengunduh foto baru: Picture_23090006_ANDI SETIYAWAN.jpg
+2026-04-24 13:12:35,258 [INFO] ⬇️ Mengunduh foto baru: Picture_24030001_KUSWIDIYANTO.jpg
+2026-04-24 13:12:35,627 [INFO] ⬇️ Mengunduh foto baru: Picture_24030002_SAEBANI.jpg
+2026-04-24 13:12:35,997 [INFO] ⬇️ Mengunduh foto baru: Picture_24040001_DIDIK KURNIAWAN, S.E.jpg
+2026-04-24 13:12:36,309 [INFO] ⬇️ Mengunduh foto baru: Picture_24040006_WARDAN SUYANTO.JPG
+2026-04-24 13:12:40,023 [INFO] ⬇️ Mengunduh foto baru: Picture_24040007_MUHAMMAD LUTHFI KAMAL.jpg
+2026-04-24 13:12:41,323 [INFO] ⬇️ Mengunduh foto baru: Picture_24050001_ANITA KUSUMAWATI.jpg
+2026-04-24 13:12:41,666 [INFO] ⬇️ Mengunduh foto baru: Picture_24050003_ADYA GITA SYAIRA.jpg
+2026-04-24 13:12:42,697 [INFO] ⬇️ Mengunduh foto baru: Picture_24060005_RIKO PUTRO NUGROHO.jpg
+2026-04-24 13:12:43,154 [INFO] ⬇️ Mengunduh foto baru: Picture_24070004_FERDINAN LESTIAWAN.jpg
+2026-04-24 13:12:43,458 [INFO] ⬇️ Mengunduh foto baru: Picture_24080003_DENNI ARY PRABOWO.DNG
+2026-04-24 13:12:50,832 [INFO] ⬇️ Mengunduh foto baru: Picture_25010001_JUNIZA PERMATA NUGRAHENI.jpg
+2026-04-24 13:12:51,260 [INFO] ⬇️ Mengunduh foto baru: Picture_25020001_DAFA NUR ALI FAUZI.jpg
+2026-04-24 13:12:51,895 [INFO] ⬇️ Mengunduh foto baru: Picture_25050001_ANDRI ALFIAN ASYIFUDIN.jpg
+2026-04-24 13:12:52,245 [INFO] ⬇️ Mengunduh foto baru: Picture_25060001_TYAS INDAH WULANDARI.jpg
+2026-04-24 13:12:52,743 [INFO] ⬇️ Mengunduh foto baru: Picture_25070006_YOHANES DANU RHADIAN.jpg
+2026-04-24 13:12:53,100 [INFO] ⬇️ Mengunduh foto baru: Picture_25080002_MUHAMMAD ANDRE CHANIAGO PRAYOGA.jpg
+2026-04-24 13:12:53,501 [INFO] ⬇️ Mengunduh foto baru: Picture_25110001_FILDA FIKRI FAIZAL MUTTAQIN.jpg
+2026-04-24 13:12:53,948 [INFO] ⬇️ Mengunduh foto baru: Picture_26010001_TRI PAMUJI LESTARI.jpg
+2026-04-24 13:12:54,266 [INFO] ⬇️ Mengunduh foto baru: Picture_26020001_DWIE KRISTIANTO.jpg
+2026-04-24 13:12:54,688 [INFO] ⬇️ Mengunduh foto baru: Picture_26020002_VANIA INSANI SYITA HARMONY.jpeg
+2026-04-24 13:12:55,334 [INFO] ⬇️ Mengunduh foto baru: Picture_26030001_DARMA PUTRA.jpg
+2026-04-24 13:12:56,199 [INFO] ⬇️ Mengunduh foto baru: Picture_26040001_BAGUS FAJAR FADLI.jpg
+2026-04-24 13:12:56,437 [INFO] ✨ Terdapat foto baru terunduh. Memberi sinyal ke Main Thread untuk reload...
+2026-04-24 13:12:56,518 [INFO] ⚠️ Menjeda kamera sejenak untuk memuat data wajah baru...
+2026-04-24 13:12:56,518 [INFO] 🔄 Memulai reload database wajah...
+2026-04-24 13:13:05,766 [INFO] ✅ Reload selesai! Total 28 wajah aktif di memori.
+2026-04-24 13:13:05,767 [INFO] ▶️ Melanjutkan kamera.
+2026-04-24 13:13:05,864 [INFO] Wajah dikenali: TRI PAMUJI LESTARI. Men-trigger API.
+2026-04-24 13:13:05,865 [INFO] Mempersiapkan payload API (Multipart) untuk NIP: 26010001 - TRI PAMUJI LESTARI
+2026-04-24 13:13:05,869 [INFO] ✅ Simulasi API Hit Sukses (Multipart/Form-Data Terbentuk).
+2026-04-24 13:13:05,962 [INFO] Wajah dikenali: ANANG SULISTYO ARIWIBOWO. Men-trigger API.
+2026-04-24 13:13:05,963 [INFO] Mempersiapkan payload API (Multipart) untuk NIP: 23040001 - ANANG SULISTYO ARIWIBOWO
+2026-04-24 13:13:05,964 [INFO] ✅ Simulasi API Hit Sukses (Multipart/Form-Data Terbentuk).
+2026-04-24 13:13:06,364 [INFO] Wajah dikenali: DWIE KRISTIANTO. Men-trigger API.
+2026-04-24 13:13:06,365 [INFO] Mempersiapkan payload API (Multipart) untuk NIP: 26020001 - DWIE KRISTIANTO
+2026-04-24 13:13:06,366 [INFO] ✅ Simulasi API Hit Sukses (Multipart/Form-Data Terbentuk).
+2026-04-24 13:13:06,471 [INFO] Wajah dikenali: SAEBANI. Men-trigger API.
+2026-04-24 13:13:06,471 [INFO] Mempersiapkan payload API (Multipart) untuk NIP: 24030002 - SAEBANI
+2026-04-24 13:13:06,473 [INFO] ✅ Simulasi API Hit Sukses (Multipart/Form-Data Terbentuk).
+2026-04-24 13:13:07,024 [INFO] Wajah dikenali: BAGUS FAJAR FADLI. Men-trigger API.
+2026-04-24 13:13:07,024 [INFO] Mempersiapkan payload API (Multipart) untuk NIP: 26040001 - BAGUS FAJAR FADLI
+2026-04-24 13:13:07,026 [INFO] ✅ Simulasi API Hit Sukses (Multipart/Form-Data Terbentuk).
+2026-04-24 13:19:44,596 [INFO] Sistem Absensi Face Recognition Memulai Proses Inisialisasi...
+2026-04-24 13:19:44,597 [INFO] Memuat database wajah dari direktori lokal...
+2026-04-24 13:19:44,597 [INFO] 🔄 Memulai reload database wajah...
+2026-04-24 13:20:07,791 [INFO] ✅ Reload selesai! Total 32 wajah aktif di memori.
+2026-04-24 13:20:07,793 [INFO] 📡 [SYNC] Mengecek update data karyawan ke backend API...
+2026-04-24 13:20:07,973 [INFO] Dimuat: 24040006_WARDAN SUYANTO (Picture)
+2026-04-24 13:20:08,427 [INFO] Dimuat: 24030001_KUSWIDIYANTO (Picture)
+2026-04-24 13:20:08,838 [INFO] Dimuat: 22040002_ALFONSO ARYANDO SABILILLAH (Picture)
+2026-04-24 13:20:08,936 [INFO] Dimuat: 15110001_ANDIKA SAPUTRA (Picture)
+2026-04-24 13:20:09,285 [INFO] ⬇️ Mengunduh foto baru: Picture_24040006_WARDAN SUYANTO.JPG
+2026-04-24 13:20:09,362 [INFO] Dimuat: 25110001_FILDA FIKRI FAIZAL MUTTAQIN (Picture)
+2026-04-24 13:20:09,774 [INFO] Dimuat: 25060001_TYAS INDAH WULANDARI (Picture)
+2026-04-24 13:20:10,159 [INFO] Dimuat: 26010001_TRI PAMUJI LESTARI (Picture)
+2026-04-24 13:20:10,545 [INFO] Dimuat: 23090006_ANDI SETIYAWAN (Picture)
+2026-04-24 13:20:10,907 [INFO] Dimuat: 25020001_DAFA NUR ALI FAUZI (Picture)
+2026-04-24 13:20:11,268 [INFO] Dimuat: 24050003_ADYA GITA SYAIRA (Picture)
+2026-04-24 13:20:11,623 [INFO] Dimuat: 22040001_HENDRA PUTRANTO (Picture)
+2026-04-24 13:20:11,960 [INFO] Dimuat: 25050001_ANDRI ALFIAN ASYIFUDIN (Picture)
+2026-04-24 13:20:12,305 [INFO] Dimuat: 25010001_JUNIZA PERMATA NUGRAHENI (Picture)
+2026-04-24 13:20:12,750 [INFO] Dimuat: 24060005_RIKO PUTRO NUGROHO (Picture)
+2026-04-24 13:20:13,240 [INFO] Dimuat: 25070006_YOHANES DANU RHADIAN (Picture)
+2026-04-24 13:20:13,556 [INFO] Dimuat: 22120001_FAJAR NUGROHO (Picture)
+2026-04-24 13:20:13,862 [INFO] Dimuat: 24030002_SAEBANI (Picture)
+2026-04-24 13:20:14,160 [INFO] Dimuat: 20070001_RISKA FEBI PUSPITASARI (Picture)
+2026-04-24 13:20:15,376 [INFO] Dimuat: 1231231_Miftah (Picture)
+2026-04-24 13:20:15,542 [INFO] Dimuat: 24080003_DENNI ARY PRABOWO (Picture)
+2026-04-24 13:20:15,814 [INFO] Dimuat: 26040001_BAGUS FAJAR FADLI (Picture)
+2026-04-24 13:20:16,085 [INFO] Dimuat: 24040001_DIDIK KURNIAWAN, S.E (Picture)
+2026-04-24 13:20:16,238 [INFO] Dimuat: 26040002_Wisnu (Picture)
+2026-04-24 13:20:16,239 [INFO] ⬇️ Mengunduh foto baru: Picture_24080003_DENNI ARY PRABOWO.DNG
+2026-04-24 13:20:16,501 [INFO] Dimuat: 26030001_DARMA PUTRA (Picture)
+2026-04-24 13:20:16,759 [INFO] Dimuat: 24050001_ANITA KUSUMAWATI (Picture)
+2026-04-24 13:20:17,017 [INFO] Dimuat: 25080002_MUHAMMAD ANDRE CHANIAGO PRAYOGA (Picture)
+2026-04-24 13:20:17,265 [INFO] Dimuat: 24070004_FERDINAN LESTIAWAN (Picture)
+2026-04-24 13:20:17,510 [INFO] Dimuat: 26020001_DWIE KRISTIANTO (Picture)
+2026-04-24 13:20:17,766 [INFO] Dimuat: 23040001_ANANG SULISTYO ARIWIBOWO (Picture)
+2026-04-24 13:20:19,022 [INFO] Dimuat: 23090005_RANTO FADILAH (Picture)
+2026-04-24 13:20:19,224 [INFO] Dimuat: 26020002_VANIA INSANI SYITA HARMONY (Picture)
+2026-04-24 13:20:19,458 [INFO] Dimuat: 24040007_MUHAMMAD LUTHFI KAMAL (Picture)
+2026-04-24 13:20:20,766 [INFO] Kamera diinisialisasi. Memulai main loop.
+2026-04-24 13:20:21,277 [INFO] Wajah dikenali: Wisnu. Men-trigger API.
+2026-04-24 13:20:21,278 [INFO] Mempersiapkan payload API (Multipart) untuk NIP: 26040002 - Wisnu
+2026-04-24 13:20:21,280 [INFO] ✅ Simulasi API Hit Sukses (Multipart/Form-Data Terbentuk).
+2026-04-24 13:20:21,502 [INFO] Wajah dikenali: DWIE KRISTIANTO. Men-trigger API.
+2026-04-24 13:20:21,502 [INFO] Mempersiapkan payload API (Multipart) untuk NIP: 26020001 - DWIE KRISTIANTO
+2026-04-24 13:20:21,503 [INFO] ✅ Simulasi API Hit Sukses (Multipart/Form-Data Terbentuk).
+2026-04-24 13:20:25,905 [INFO] ⬇️ Mengunduh foto baru: Picture_26020002_VANIA INSANI SYITA HARMONY.jpeg
+2026-04-24 13:20:26,269 [INFO] ✨ Terdapat foto baru terunduh. Memberi sinyal ke Main Thread untuk reload...
+2026-04-24 13:20:26,341 [INFO] ⚠️ Menjeda kamera sejenak untuk memuat data wajah baru...
+2026-04-24 13:20:26,341 [INFO] 🔄 Memulai reload database wajah...
+2026-04-24 13:20:34,618 [INFO] ✅ Reload selesai! Total 33 wajah aktif di memori.
+2026-04-24 13:20:34,619 [INFO] ▶️ Melanjutkan kamera.
+2026-04-24 13:20:48,416 [INFO] Wajah dikenali: TRI PAMUJI LESTARI. Men-trigger API.
+2026-04-24 13:20:48,416 [INFO] Mempersiapkan payload API (Multipart) untuk NIP: 26010001 - TRI PAMUJI LESTARI
+2026-04-24 13:20:48,418 [INFO] ✅ Simulasi API Hit Sukses (Multipart/Form-Data Terbentuk).
+2026-04-24 13:20:51,449 [INFO] Wajah dikenali: Wisnu. Men-trigger API.
+2026-04-24 13:20:51,449 [INFO] Mempersiapkan payload API (Multipart) untuk NIP: 26040002 - Wisnu
+2026-04-24 13:20:51,452 [INFO] ✅ Simulasi API Hit Sukses (Multipart/Form-Data Terbentuk).
+2026-04-24 13:27:06,405 [INFO] Sistem Absensi Face Recognition Memulai Proses Inisialisasi...
+2026-04-24 13:27:06,405 [INFO] Memuat database wajah dari direktori lokal...
+2026-04-24 13:27:06,406 [INFO] 🔄 Memulai reload database wajah...
+2026-04-24 13:27:13,553 [INFO] ✅ Reload selesai! Total 33 wajah aktif di memori.
+2026-04-24 13:27:13,553 [INFO] 📡 [SYNC] Mengecek update data karyawan ke backend API...
+2026-04-24 13:27:13,613 [INFO] Dimuat: 24040006_WARDAN SUYANTO (Picture)
+2026-04-24 13:27:13,787 [INFO] Dimuat: 24030001_KUSWIDIYANTO (Picture)
+2026-04-24 13:27:13,955 [INFO] Dimuat: 22040002_ALFONSO ARYANDO SABILILLAH (Picture)
+2026-04-24 13:27:13,989 [INFO] Dimuat: 15110001_ANDIKA SAPUTRA (Picture)
+2026-04-24 13:27:14,163 [INFO] Dimuat: 25110001_FILDA FIKRI FAIZAL MUTTAQIN (Picture)
+2026-04-24 13:27:14,330 [INFO] Dimuat: 25060001_TYAS INDAH WULANDARI (Picture)
+2026-04-24 13:27:14,497 [INFO] Dimuat: 26010001_TRI PAMUJI LESTARI (Picture)
+2026-04-24 13:27:14,663 [INFO] Dimuat: 23090006_ANDI SETIYAWAN (Picture)
+2026-04-24 13:27:14,828 [INFO] Dimuat: 25020001_DAFA NUR ALI FAUZI (Picture)
+2026-04-24 13:27:14,994 [INFO] Dimuat: 24050003_ADYA GITA SYAIRA (Picture)
+2026-04-24 13:27:15,157 [INFO] Dimuat: 22040001_HENDRA PUTRANTO (Picture)
+2026-04-24 13:27:15,264 [INFO] 👍 [SYNC] Selesai. Database lokal sudah up-to-date.
+2026-04-24 13:27:15,331 [INFO] Dimuat: 25050001_ANDRI ALFIAN ASYIFUDIN (Picture)
+2026-04-24 13:27:15,498 [INFO] Dimuat: 25010001_JUNIZA PERMATA NUGRAHENI (Picture)
+2026-04-24 13:27:15,675 [INFO] Dimuat: 24060005_RIKO PUTRO NUGROHO (Picture)
+2026-04-24 13:27:15,843 [INFO] Dimuat: 25070006_YOHANES DANU RHADIAN (Picture)
+2026-04-24 13:27:16,009 [INFO] Dimuat: 22120001_FAJAR NUGROHO (Picture)
+2026-04-24 13:27:16,174 [INFO] Dimuat: 24030002_SAEBANI (Picture)
+2026-04-24 13:27:16,339 [INFO] Dimuat: 20070001_RISKA FEBI PUSPITASARI (Picture)
+2026-04-24 13:27:17,046 [INFO] Dimuat: 26020002_VANIA INSANI SYITA HARMONY (Picture)
+2026-04-24 13:27:17,695 [INFO] Dimuat: 1231231_Miftah (Picture)
+2026-04-24 13:27:17,793 [INFO] Dimuat: 24080003_DENNI ARY PRABOWO (Picture)
+2026-04-24 13:27:17,968 [INFO] Dimuat: 26040001_BAGUS FAJAR FADLI (Picture)
+2026-04-24 13:27:18,135 [INFO] Dimuat: 24040001_DIDIK KURNIAWAN, S.E (Picture)
+2026-04-24 13:27:18,235 [INFO] Dimuat: 26040002_Wisnu (Picture)
+2026-04-24 13:27:18,405 [INFO] Dimuat: 26030001_DARMA PUTRA (Picture)
+2026-04-24 13:27:18,573 [INFO] Dimuat: 24050001_ANITA KUSUMAWATI (Picture)
+2026-04-24 13:27:18,739 [INFO] Dimuat: 25080002_MUHAMMAD ANDRE CHANIAGO PRAYOGA (Picture)
+2026-04-24 13:27:18,906 [INFO] Dimuat: 24070004_FERDINAN LESTIAWAN (Picture)
+2026-04-24 13:27:19,074 [INFO] Dimuat: 26020001_DWIE KRISTIANTO (Picture)
+2026-04-24 13:27:19,243 [INFO] Dimuat: 23040001_ANANG SULISTYO ARIWIBOWO (Picture)
+2026-04-24 13:27:20,182 [INFO] Dimuat: 23090005_RANTO FADILAH (Picture)
+2026-04-24 13:27:20,335 [INFO] Dimuat: 26020002_VANIA INSANI SYITA HARMONY (Picture)
+2026-04-24 13:27:20,510 [INFO] Dimuat: 24040007_MUHAMMAD LUTHFI KAMAL (Picture)
+2026-04-24 13:27:21,622 [INFO] Kamera diinisialisasi. Memulai main loop.
+2026-04-24 13:27:21,709 [INFO] Wajah dikenali: Wisnu. Men-trigger API.
+2026-04-24 13:27:21,709 [INFO] Mempersiapkan payload API (Multipart) untuk NIP: 26040002 - Wisnu
+2026-04-24 13:27:21,710 [INFO] ✅ Simulasi API Hit Sukses (Multipart/Form-Data Terbentuk).
+2026-04-24 13:27:27,108 [INFO] Wajah dikenali: TRI PAMUJI LESTARI. Men-trigger API.
+2026-04-24 13:27:27,109 [INFO] Mempersiapkan payload API (Multipart) untuk NIP: 26010001 - TRI PAMUJI LESTARI
+2026-04-24 13:27:27,110 [INFO] ✅ Simulasi API Hit Sukses (Multipart/Form-Data Terbentuk).
+2026-04-24 13:27:51,729 [INFO] Wajah dikenali: Wisnu. Men-trigger API.
+2026-04-24 13:27:51,730 [INFO] Mempersiapkan payload API (Multipart) untuk NIP: 26040002 - Wisnu
+2026-04-24 13:27:51,731 [INFO] ✅ Simulasi API Hit Sukses (Multipart/Form-Data Terbentuk).

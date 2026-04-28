@@ -1,0 +1,15 @@
+# Abaikan Virtual Environment
+venv/
+.env
+
+# Abaikan File Konfigurasi Sensitif (Paling Penting!)
+config.json
+
+# Abaikan Folder Log dan Foto Karyawan
+logs/
+known_faces/
+
+# Abaikan file sampah sistem
+.DS_Store
+__pycache__/
+*.pyc

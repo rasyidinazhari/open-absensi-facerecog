@@ -7,6 +7,6 @@
   "longitude": "110.3956848",
   "city": "Yogyakarta",
   "ip_address": "127.0.0.1",
-  "attendance_api": "https://aioss.id/app/api/education/attendance-face-recognition",
-  "sync_api": "https://api.perusahaan.com/v1/karyawan/sync"
+  "attendance_api": "MASUKKAN_URL_POST_DISINI",
+  "sync_api": "MASUKKAN_URL_GET_DISINI"
 }
